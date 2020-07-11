@@ -1,0 +1,11 @@
+<div class="container">
+    <div *ngFor="let pokemon of pokemons" class="pokemon-card">
+
+        <a routerLink="/pokemon/{{pokemon._id}}">
+            <h3>#{{pokemon.id}}</h3>
+            <!-- <h3>#{{pokemon._id}}</h3> -->
+            <p>{{pokemon.name}}</p>
+            <img [src]="pokemon.image">
+        </a>
+    </div>
+</div>

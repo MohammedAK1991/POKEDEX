@@ -1,0 +1,910 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/1/",
+      "name": "bulbasaur"
+    },
+    {
+      "id": 2,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/2/",
+      "name": "ivysaur"
+    },
+    {
+      "id": 3,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/3/",
+      "name": "venusaur"
+    },
+    {
+      "id": 4,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/4/",
+      "name": "charmander"
+    },
+    {
+      "id": 5,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/5/",
+      "name": "charmeleon"
+    },
+    {
+      "id": 6,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/6/",
+      "name": "charizard"
+    },
+    {
+      "id": 7,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/7/",
+      "name": "squirtle"
+    },
+    {
+      "id": 8,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/8/",
+      "name": "wartortle"
+    },
+    {
+      "id": 9,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/9/",
+      "name": "blastoise"
+    },
+    {
+      "id": 10,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/10/",
+      "name": "caterpie"
+    },
+    {
+      "id": 11,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/11/",
+      "name": "metapod"
+    },
+    {
+      "id": 12,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/12/",
+      "name": "butterfree"
+    },
+    {
+      "id": 13,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/13/",
+      "name": "weedle"
+    },
+    {
+      "id": 14,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/14/",
+      "name": "kakuna"
+    },
+    {
+      "id": 15,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/15/",
+      "name": "beedrill"
+    },
+    {
+      "id": 16,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/16/",
+      "name": "pidgey"
+    },
+    {
+      "id": 17,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/17/",
+      "name": "pidgeotto"
+    },
+    {
+      "id": 18,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/18/",
+      "name": "pidgeot"
+    },
+    {
+      "id": 19,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/19/",
+      "name": "rattata"
+    },
+    {
+      "id": 20,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/20/",
+      "name": "raticate"
+    },
+    {
+      "id": 21,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/21/",
+      "name": "spearow"
+    },
+    {
+      "id": 22,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/22/",
+      "name": "fearow"
+    },
+    {
+      "id": 23,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/23/",
+      "name": "ekans"
+    },
+    {
+      "id": 24,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/24/",
+      "name": "arbok"
+    },
+    {
+      "id": 25,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/25/",
+      "name": "pikachu"
+    },
+    {
+      "id": 26,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/26/",
+      "name": "raichu"
+    },
+    {
+      "id": 27,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/27/",
+      "name": "sandshrew"
+    },
+    {
+      "id": 28,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/28/",
+      "name": "sandslash"
+    },
+    {
+      "id": 29,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/29/",
+      "name": "nidoran-f"
+    },
+    {
+      "id": 30,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/30/",
+      "name": "nidorina"
+    },
+    {
+      "id": 31,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/31/",
+      "name": "nidoqueen"
+    },
+    {
+      "id": 32,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/32/",
+      "name": "nidoran-m"
+    },
+    {
+      "id": 33,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/33/",
+      "name": "nidorino"
+    },
+    {
+      "id": 34,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/34/",
+      "name": "nidoking"
+    },
+    {
+      "id": 35,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/35/",
+      "name": "clefairy"
+    },
+    {
+      "id": 36,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/36/",
+      "name": "clefable"
+    },
+    {
+      "id": 37,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/37/",
+      "name": "vulpix"
+    },
+    {
+      "id": 38,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/38/",
+      "name": "ninetales"
+    },
+    {
+      "id": 39,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/39/",
+      "name": "jigglypuff"
+    },
+    {
+      "id": 40,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/40/",
+      "name": "wigglytuff"
+    },
+    {
+      "id": 41,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/41/",
+      "name": "zubat"
+    },
+    {
+      "id": 42,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/42/",
+      "name": "golbat"
+    },
+    {
+      "id": 43,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/43/",
+      "name": "oddish"
+    },
+    {
+      "id": 44,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/44/",
+      "name": "gloom"
+    },
+    {
+      "id": 45,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/45/",
+      "name": "vileplume"
+    },
+    {
+      "id": 46,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/46/",
+      "name": "paras"
+    },
+    {
+      "id": 47,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/47/",
+      "name": "parasect"
+    },
+    {
+      "id": 48,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/48/",
+      "name": "venonat"
+    },
+    {
+      "id": 49,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/49/",
+      "name": "venomoth"
+    },
+    {
+      "id": 50,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/50/",
+      "name": "diglett"
+    },
+    {
+      "id": 51,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/51/",
+      "name": "dugtrio"
+    },
+    {
+      "id": 52,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/52/",
+      "name": "meowth"
+    },
+    {
+      "id": 53,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/53/",
+      "name": "persian"
+    },
+    {
+      "id": 54,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/54/",
+      "name": "psyduck"
+    },
+    {
+      "id": 55,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/55/",
+      "name": "golduck"
+    },
+    {
+      "id": 56,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/56/",
+      "name": "mankey"
+    },
+    {
+      "id": 57,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/57/",
+      "name": "primeape"
+    },
+    {
+      "id": 58,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/58/",
+      "name": "growlithe"
+    },
+    {
+      "id": 59,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/59/",
+      "name": "arcanine"
+    },
+    {
+      "id": 60,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/60/",
+      "name": "poliwag"
+    },
+    {
+      "id": 61,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/61/",
+      "name": "poliwhirl"
+    },
+    {
+      "id": 62,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/62/",
+      "name": "poliwrath"
+    },
+    {
+      "id": 63,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/63/",
+      "name": "abra"
+    },
+    {
+      "id": 64,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/64/",
+      "name": "kadabra"
+    },
+    {
+      "id": 65,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/65/",
+      "name": "alakazam"
+    },
+    {
+      "id": 66,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/66/",
+      "name": "machop"
+    },
+    {
+      "id": 67,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/67/",
+      "name": "machoke"
+    },
+    {
+      "id": 68,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/68/",
+      "name": "machamp"
+    },
+    {
+      "id": 69,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/69/",
+      "name": "bellsprout"
+    },
+    {
+      "id": 70,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/70/",
+      "name": "weepinbell"
+    },
+    {
+      "id": 71,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/71/",
+      "name": "victreebel"
+    },
+    {
+      "id": 72,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/72/",
+      "name": "tentacool"
+    },
+    {
+      "id": 73,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/73/",
+      "name": "tentacruel"
+    },
+    {
+      "id": 74,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/74/",
+      "name": "geodude"
+    },
+    {
+      "id": 75,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/75/",
+      "name": "graveler"
+    },
+    {
+      "id": 76,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/76/",
+      "name": "golem"
+    },
+    {
+      "id": 77,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/77/",
+      "name": "ponyta"
+    },
+    {
+      "id": 78,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/78/",
+      "name": "rapidash"
+    },
+    {
+      "id": 79,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/79/",
+      "name": "slowpoke"
+    },
+    {
+      "id": 80,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/80/",
+      "name": "slowbro"
+    },
+    {
+      "id": 81,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/81/",
+      "name": "magnemite"
+    },
+    {
+      "id": 82,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/82/",
+      "name": "magneton"
+    },
+    {
+      "id": 83,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/83/",
+      "name": "farfetchd"
+    },
+    {
+      "id": 84,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/84/",
+      "name": "doduo"
+    },
+    {
+      "id": 85,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/85/",
+      "name": "dodrio"
+    },
+    {
+      "id": 86,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/86/",
+      "name": "seel"
+    },
+    {
+      "id": 87,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/87/",
+      "name": "dewgong"
+    },
+    {
+      "id": 88,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/88/",
+      "name": "grimer"
+    },
+    {
+      "id": 89,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/89/",
+      "name": "muk"
+    },
+    {
+      "id": 90,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/90/",
+      "name": "shellder"
+    },
+    {
+      "id": 91,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/91/",
+      "name": "cloyster"
+    },
+    {
+      "id": 92,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/92/",
+      "name": "gastly"
+    },
+    {
+      "id": 93,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/93/",
+      "name": "haunter"
+    },
+    {
+      "id": 94,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/94/",
+      "name": "gengar"
+    },
+    {
+      "id": 95,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/95/",
+      "name": "onix"
+    },
+    {
+      "id": 96,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/96/",
+      "name": "drowzee"
+    },
+    {
+      "id": 97,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/97/",
+      "name": "hypno"
+    },
+    {
+      "id": 98,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/98/",
+      "name": "krabby"
+    },
+    {
+      "id": 99,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/99/",
+      "name": "kingler"
+    },
+    {
+      "id": 100,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/100/",
+      "name": "voltorb"
+    },
+    {
+      "id": 101,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/101/",
+      "name": "electrode"
+    },
+    {
+      "id": 102,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/102/",
+      "name": "exeggcute"
+    },
+    {
+      "id": 103,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/103/",
+      "name": "exeggutor"
+    },
+    {
+      "id": 104,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/104/",
+      "name": "cubone"
+    },
+    {
+      "id": 105,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/105/",
+      "name": "marowak"
+    },
+    {
+      "id": 106,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/106/",
+      "name": "hitmonlee"
+    },
+    {
+      "id": 107,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/107/",
+      "name": "hitmonchan"
+    },
+    {
+      "id": 108,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/108/",
+      "name": "lickitung"
+    },
+    {
+      "id": 109,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/109/",
+      "name": "koffing"
+    },
+    {
+      "id": 110,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/110/",
+      "name": "weezing"
+    },
+    {
+      "id": 111,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/111/",
+      "name": "rhyhorn"
+    },
+    {
+      "id": 112,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/112/",
+      "name": "rhydon"
+    },
+    {
+      "id": 113,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/113/",
+      "name": "chansey"
+    },
+    {
+      "id": 114,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/114/",
+      "name": "tangela"
+    },
+    {
+      "id": 115,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/115/",
+      "name": "kangaskhan"
+    },
+    {
+      "id": 116,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/116/",
+      "name": "horsea"
+    },
+    {
+      "id": 117,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/117/",
+      "name": "seadra"
+    },
+    {
+      "id": 118,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/118/",
+      "name": "goldeen"
+    },
+    {
+      "id": 119,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/119/",
+      "name": "seaking"
+    },
+    {
+      "id": 120,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/120/",
+      "name": "staryu"
+    },
+    {
+      "id": 121,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/121/",
+      "name": "starmie"
+    },
+    {
+      "id": 122,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/122/",
+      "name": "mr-mime"
+    },
+    {
+      "id": 123,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/123/",
+      "name": "scyther"
+    },
+    {
+      "id": 124,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/124/",
+      "name": "jynx"
+    },
+    {
+      "id": 125,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/125/",
+      "name": "electabuzz"
+    },
+    {
+      "id": 126,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/126/",
+      "name": "magmar"
+    },
+    {
+      "id": 127,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/127/",
+      "name": "pinsir"
+    },
+    {
+      "id": 128,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/128/",
+      "name": "tauros"
+    },
+    {
+      "id": 129,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/129/",
+      "name": "magikarp"
+    },
+    {
+      "id": 130,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/130/",
+      "name": "gyarados"
+    },
+    {
+      "id": 131,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/131/",
+      "name": "lapras"
+    },
+    {
+      "id": 132,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/132/",
+      "name": "ditto"
+    },
+    {
+      "id": 133,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/133/",
+      "name": "eevee"
+    },
+    {
+      "id": 134,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/134/",
+      "name": "vaporeon"
+    },
+    {
+      "id": 135,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/135/",
+      "name": "jolteon"
+    },
+    {
+      "id": 136,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/136/",
+      "name": "flareon"
+    },
+    {
+      "id": 137,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/137/",
+      "name": "porygon"
+    },
+    {
+      "id": 138,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/138/",
+      "name": "omanyte"
+    },
+    {
+      "id": 139,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/139/",
+      "name": "omastar"
+    },
+    {
+      "id": 140,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/140/",
+      "name": "kabuto"
+    },
+    {
+      "id": 141,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/141/",
+      "name": "kabutops"
+    },
+    {
+      "id": 142,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/142/",
+      "name": "aerodactyl"
+    },
+    {
+      "id": 143,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/143/",
+      "name": "snorlax"
+    },
+    {
+      "id": 144,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/144/",
+      "name": "articuno"
+    },
+    {
+      "id": 145,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/145/",
+      "name": "zapdos"
+    },
+    {
+      "id": 146,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/146/",
+      "name": "moltres"
+    },
+    {
+      "id": 147,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/147/",
+      "name": "dratini"
+    },
+    {
+      "id": 148,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/148/",
+      "name": "dragonair"
+    },
+    {
+      "id": 149,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/149/",
+      "name": "dragonite"
+    },
+    {
+      "id": 150,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/150/",
+      "name": "mewtwo"
+    },
+    {
+      "id": 151,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+      "url": "http://pokeapi.salestock.net/api/v2/pokemon/151/",
+      "name": "mew"
+    }
+  ]
+}

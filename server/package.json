@@ -1,0 +1,19 @@
+{
+    "name": "poke-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "server": "npx json-server --port 3002 db.json",
+        "scraper": "node pokemon-scraper.js",
+        "start": "npm run server & npm run scraper"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "json-server": "^0.16.1",
+        "node-fetch": "^2.6.0"
+    }
+}

@@ -1,0 +1,20 @@
+.container_main {
+    display: flex;
+    padding-top: 70px;
+}
+
+.container {
+    margin-top: 0px;
+}
+
+.container_main>div {
+    margin: 2px;
+    padding: 5px;
+}
+
+*,
+body {
+    font-family: "avenir";
+    color: white;
+    background-color: rgb(31, 31, 31);
+}

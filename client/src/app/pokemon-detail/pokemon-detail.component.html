@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="container_main">
+        <div class="image">
+            <div *ngIf="pokemon.image">
+                <img [src]="pokemon.image">
+            </div>
+        </div>
+        <div class="text">
+            <h3>{{pokemon.id}}</h3>
+            <!-- <h4>{{movie.tagline}}</h4> -->
+            <!-- <h4>{{movie.genre}}</h4> -->
+        </div>
+    </div>
+    <div class="container_description">
+        <p>{{pokemon.name}}</p>
+    </div>
+</div>
